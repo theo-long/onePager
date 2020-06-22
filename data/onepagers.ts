@@ -11,6 +11,21 @@ export const EMPTY_ONE_PAGER: OnePagerData = {
   founders: [],
 };
 
+// All industry tags
+export const INDUSTRY_TAGS = [
+  'Social Media', 
+  'Messaging', 
+  'Mobile', 
+  'P2P', 
+  'Consumer Lending', 
+  'Finance', 
+  'Music', 
+  'Streaming',
+  'SaaS',
+  'HR', 
+  'Software', 
+  'Gaming']
+
 const facebook: OnePagerData = {
   companyName: 'Facebook',
   url: 'facebook',
@@ -108,5 +123,6 @@ export const ONE_PAGERS_PUBLIC_DATA_ARRAY: OnePagerPublicData[] = Array.from(
     url: onePager.url,
     industryTags: onePager.industryTags,
     briefDescription: onePager.briefDescription,
+    founders: onePager.founders
   };
 });

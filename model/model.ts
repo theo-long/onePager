@@ -11,6 +11,7 @@ export interface OnePagerPublicData {
   url: string;
   industryTags: string[];
   briefDescription: string;
+  founders: OnePagerPerson[];
 }
 
 /** Full one pager data model. */
